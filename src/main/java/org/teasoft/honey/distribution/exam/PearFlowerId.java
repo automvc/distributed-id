@@ -8,7 +8,7 @@ package org.teasoft.honey.distribution.exam;
 
 /**
  * @author Kingstar
- * @since  1.7.3
+ * @since  1.8
  */
 public class PearFlowerId extends org.teasoft.honey.distribution.PearFlowerId {
 	//org.teasoft.honey.distribution.PearFlowerId 源码位于:

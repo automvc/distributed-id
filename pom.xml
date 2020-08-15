@@ -10,6 +10,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
+		<bee.version>1.8-SNAPSHOT</bee.version>
 	</properties>
 
 	<dependencies>
@@ -17,17 +18,15 @@
 		<dependency>
 			<groupId>org.teasoft</groupId>
 			<artifactId>bee</artifactId>
-<!-- 			<version>1.7.2</version> -->
-			<version>1.7.3-SNAPSHOT</version>
+			<version>${bee.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.teasoft</groupId>
 			<artifactId>honey</artifactId>
-<!-- 			<version>1.7.2</version> -->
-            <version>1.7.3-SNAPSHOT</version>
-			
+			<version>${bee.version}</version>
 		</dependency>
+		
 	</dependencies>
 		
 </project>
